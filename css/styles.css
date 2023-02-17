@@ -10,6 +10,21 @@ body {
   line-height: 1.6;
   color: black;
 }
+<style>*{
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#hero {
+background-image: url('img/mockups.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh; /* adjust this as needed */
+}
+</style>
 
 img {
   width: 100%;
