@@ -20,7 +20,6 @@ background-image: url('img/mockups.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-height: 100vh; /* adjust this as needed */
 }
 </style>
 
@@ -104,11 +103,11 @@ nav>ul {
   margin: 0;
 }
 
-/
 nav>ul>li {
   display: inline-block;
+  float: right;
 }
-/
+
 nav>ul>li>a {
   padding: 0 25px;
   text-transform: uppercase;
