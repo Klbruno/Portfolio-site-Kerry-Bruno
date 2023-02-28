@@ -67,7 +67,7 @@ header {
 }
 
 .logo {
-  max-width: 80px;
+  max-width: 60px;
 }
 
 main {
@@ -548,7 +548,9 @@ Large devices (1024px or larger)
     font-size: 14px;
     font-weight: 400;
   }
-
+  .logo {
+    max-width: 641px;
+  }
   main {
     padding-top: 30px;
   }
