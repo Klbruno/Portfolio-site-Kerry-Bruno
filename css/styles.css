@@ -10,19 +10,6 @@ body {
   line-height: 1.6;
   color: black;
 }
-{
-  box-sizing: border-box;
-}
-{
-  margin: 0;
-  padding: 0;
-}
-#hero {
-background-image: url('img/mockups.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-}
 
 img {
   width: 100%;
@@ -67,7 +54,7 @@ header {
 }
 
 .logo {
-  max-width: 60px;
+  max-width: 80px;
 }
 
 main {
@@ -104,14 +91,11 @@ nav>ul {
   margin: 0;
 }
 
-
+/*
 nav>ul>li {
   display: inline-block;
-  float: right;
 }
-
-
-
+*/
 nav>ul>li>a {
   padding: 0 25px;
   text-transform: uppercase;
@@ -388,21 +372,7 @@ nav>ul>li>a {
 #aboutme h1, h2 {
   text-align: center;
 }
-.button {
-  display: inline-block;
-  background-color: #ff7f50;
-  color: white;
-  font-weight: 400;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #994c30;
-  transition-duration: 0.2s;
-  transition-property: opacity;
-}
-.button:hover {
-  opacity: 0.8;
-}
+
 .resumebutton, .resumebutton:visited {
   display: inline-block;
   background-color: #800080;
@@ -548,9 +518,7 @@ Large devices (1024px or larger)
     font-size: 14px;
     font-weight: 400;
   }
-  .logo {
-    max-width: 641px;
-  }
+
   main {
     padding-top: 30px;
   }
@@ -601,5 +569,4 @@ X-large devices (1440px or larger)
     margin-right: auto;
   }
 }
-
 
